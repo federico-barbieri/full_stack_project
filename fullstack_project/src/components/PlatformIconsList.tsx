@@ -1,5 +1,7 @@
 import React from 'react'
 import {Text, Icon, HStack} from "@chakra-ui/react"
+import { Platform } from "../hooks/useGames";
+
 
 import {
     FaWindows,
@@ -8,11 +10,7 @@ import {
     FaApple,
     FaLinux,
     FaAndroid,
-    FaNintendoSwitch,
     FaSteam,
-    FaMacos,
-    FaIos,
-    FaWeb,
 } from "react-icons/fa";
 
 import {MdPhoneIphone} from "react-icons/md";
