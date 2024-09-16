@@ -2,6 +2,7 @@ import React from 'react'
 import {Card, Image, Heading, CardBody, Text} from "@chakra-ui/react";
 import PlatformIconsList from "./PlatformIconsList";
 import CriticScore from "./CriticScore";
+import {Game} from "../hooks/useGames";
 
 interface Props{
     game: Game;
