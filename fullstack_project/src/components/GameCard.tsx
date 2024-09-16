@@ -4,7 +4,7 @@ import PlatformIconsList from "./PlatformIconsList";
 import CriticScore from "./CriticScore";
 import {Game} from "../hooks/useGames";
 
-interface Props{
+export interface Props{
     game: Game;
 }
 
